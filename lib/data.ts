@@ -2,7 +2,19 @@ import type { Project, Experience, Education, Skill, Language } from "@/lib/type
 
 export const projectsData: Project[] = [
   {
+
     id: 1,
+    title: "Soliv App",
+    description:
+    "A minimalist productivity app with Pomodoro timer, ambient sounds, notes, to-do list, and more — built with Next.js, HarperDB, and Auth0.",    
+    image: "/23902634_6881935.svg?height=600&width=800",
+    tags: ["Next.js", "Auth0", "HarperDB"],
+    github: "https://github.com/devratdave/solivapp",
+    featured: false,
+  
+  },
+  {
+    id: 2,
     title: "DePin Uptime",
     description:
     "A decentralized monitoring tool for tracking uptime, performance, and reliability of DePin (Decentralized Physical Infrastructure) networks with real-time WebSocket communication.demo",    
@@ -12,7 +24,7 @@ export const projectsData: Project[] = [
     featured: false,
   },
   {
-    id: 2,
+    id: 3,
     title: "Household Helper",
     description:
       "Built the Household Helper, a multi-user platform designed to streamline home servicing and solutions!",
@@ -22,7 +34,7 @@ export const projectsData: Project[] = [
     featured: false,
   },
   {
-    id: 3,
+    id: 4,
     title: "GoPay Payments Application",
     description:
       "Features include making payments to other people, adding money to your own wallets using auxiliary bank webhooks.",
@@ -32,7 +44,7 @@ export const projectsData: Project[] = [
     featured: false,
   },
   {
-    id: 4,
+    id: 5,
     title: "Forecasting Crime Categories",
     description:
     "CrimeCast: Forecasting Crime Categories is a data-driven machine learning project that predicts crime categories using historical crime data. ",
@@ -43,7 +55,7 @@ export const projectsData: Project[] = [
     featured: false,
   },
   {
-    id: 5,
+    id: 6,
     title: "Influencer Sponsor Coordination Application",
     description:
     "This web application is designed to streamline and enhance the way influencers and sponsors connect and collaborate.",
@@ -53,7 +65,7 @@ export const projectsData: Project[] = [
     featured: false,
   },
   {
-    id: 6,
+    id: 7,
     title: "Grocery Store Application",
     description:
     "A mobile-responsive fitness tracking application that allows users to log workouts, track progress, and set goals. Includes data visualization and social sharing features.",
@@ -63,7 +75,7 @@ export const projectsData: Project[] = [
     featured: false,
   },
   {
-    id: 7,
+    id: 8,
     title: "Medium-like Application",
     description:
       "A web application deployed for posting blogs.",
@@ -77,14 +89,14 @@ export const projectsData: Project[] = [
 
 export const experienceData: Experience[] = [
   {
-    title: "Research Analyst Intern",
-    company: "Aisha Lights",
-    period: "November 2023 - January 2024",
+    title: "Software Engineering Intern",
+    company: "National Informatics Centre (NIC))",
+    period: "April 2025 - Present",
     description:
-      "Conducted thorough research on competitors, analysed and interpreted the sales data with 100% precision",
+      "Built and optimized data pipelines processing 40–50 GB/day using NiFi, Spark, Hudi, and Hadoop; scaled for up to 4 TB/day.",
     achievements: [
-      "Provided strategic recommendations that led to a remarkable 25% increase in sales.",
-      "Developed a customer experience improvement strategy that increased the positive feedback, reporting over 70% enhanced satisfied customers within three months of implementation.",
+      "Contributed to building an internal intern management portal using React.js, Node.js, REST APIs, and SQL, enabling interns to log daily work updates and improving reporting efficiency by 30%.",
+      "Created Bash scripts to automate cluster setup and logging, cutting manual effort by 60%.",
     ],
   }
 ]
@@ -93,21 +105,21 @@ export const educationData: Education[] = [
   {
     degree: "Bachelor of Science in Data Science and Computer Programming",
     institution: "Indian Institute of Technology, Madras",
-    period: "2024 - 2026",
+    period: "September 2023 - Present",
     description: "",
     courses: ["Data Structures and Algorithms", "Software Engineering", "Artificial Intelligence", "Deep Learning"],
   },
   {
     degree: "Diploma in Data Science and Computer Programming",
     institution: "Indian Institute of Technology, Madras",
-    period: "2023 - 2024",
+    period: "Septemeber 2021 - September 2023",
     description: "Completed with a 7.61 CGPA.",
     courses: ["Data Structures", "Web Development", "Database Systems", "Machine Learning"],
   },
   {
     degree: "Bachelor of Arts (Honors) in Economics",
     institution: "Gautam Buddha University, Greater Noida",
-    period: "2020 - 2023",
+    period: "July 2020 - June 2023",
     description: "Focused on econometrics and statistical modeling. Active member of the Music Club.",
     courses: ["Micro-Economics", "Macro-Economics", "Econometrics", "Developement Economics", "International Trade and Fianance"],
   }
