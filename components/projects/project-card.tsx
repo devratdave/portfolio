@@ -63,11 +63,11 @@ export function ProjectCard({ project, index, isHovered, onHover, onLeave }: Pro
                 </a>
               </Button>
             )}
-            {project.demo && (
+            {project.live && (
               <Button size="sm" asChild>
-                <a href={project.demo} target="_blank" rel="noopener noreferrer">
+                <a href={project.live} target="_blank" rel="noopener noreferrer">
                   <ExternalLink className="mr-2 h-4 w-4" />
-                  Demo
+                  Live
                 </a>
               </Button>
             )}

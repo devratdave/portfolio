@@ -119,7 +119,7 @@ export function HomePage() {
           </motion.div>
         </section>
 
-        <section className="min-h-screen flex flex-col justify-center px-6 md:px-12 bg-gradient-to-b from-black to-gray-900">
+        <section className="min-h-screen flex flex-col justify-center px-6 md:px-12 bg-gradient-to-b from-black to-purple-500">
           <div className="max-w-4xl mx-auto">
             <motion.h2
               className="text-3xl md:text-5xl font-bold mb-12"

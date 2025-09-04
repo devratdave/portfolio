@@ -2,11 +2,34 @@ import type { Project, Experience, Education, Skill, Language } from "@/lib/type
 
 export const projectsData: Project[] = [
   {
-
     id: 1,
+    title: "chatR App",
+    description:
+    "Engineered a real-time chat application supporting instant messaging, reactions, and typing indicators.",
+    image: "/911410_OBOT5M1.svg?height=600&width=800",
+    tags: ["React.js", "Express.js", "Tailwind CSS", "Mongo DB", "Stream SDK", "Zustand"],
+    github: "https://github.com/devratdave/chatR",
+    live: "https://chatr-f1yp.onrender.com/",
+    featured: true,
+  
+  },
+  {
+    id: 2,
+    title: "NetworQ",
+    description:
+    "Built and deployed a social app with posts, comments, likes, follows, and image uploads.",
+    image: "/35010675_8257863.svg?height=600&width=800",
+    tags: ["Next.js", "TypeScript", "Tailwind CSS", "Clerk", "Prisma ORM", "PostgreSQL", "Shadcn"],
+    github: "https://github.com/devratdave/solivapp",
+    live: "https://networq-five.vercel.app",
+    featured: true,
+  
+  },
+  {
+    id: 3,
     title: "Soliv App",
     description:
-    "A minimalist productivity app with Pomodoro timer, ambient sounds, notes, to-do list, and more — built with Next.js, HarperDB, and Auth0.",    
+    "A minimalist productivity app with Pomodoro timer, ambient sounds, notes, to-do list, and more — built with Next.js, HarperDB, and Auth0.",
     image: "/23902634_6881935.svg?height=600&width=800",
     tags: ["Next.js", "Auth0", "HarperDB"],
     github: "https://github.com/devratdave/solivapp",
@@ -14,17 +37,17 @@ export const projectsData: Project[] = [
   
   },
   {
-    id: 2,
+    id: 4,
     title: "DePin Uptime",
     description:
-    "A decentralized monitoring tool for tracking uptime, performance, and reliability of DePin (Decentralized Physical Infrastructure) networks with real-time WebSocket communication.demo",    
+    "A decentralized monitoring tool for tracking uptime, performance, and reliability of DePin (Decentralized Physical Infrastructure) networks with real-time WebSocket communication.",    
     image: "/23902632_6881942.svg?height=600&width=800",
     tags: ["WebSockets", "Next.js", "TypeScript", "Tailwind CSS", "Turborepo", "PostreSQL", "Clerk"],
     github: "https://github.com/devratdave/depin-uptime",
     featured: false,
   },
   {
-    id: 3,
+    id: 5,
     title: "Household Helper",
     description:
       "Built the Household Helper, a multi-user platform designed to streamline home servicing and solutions!",
@@ -34,7 +57,7 @@ export const projectsData: Project[] = [
     featured: false,
   },
   {
-    id: 4,
+    id: 6,
     title: "GoPay Payments Application",
     description:
       "Features include making payments to other people, adding money to your own wallets using auxiliary bank webhooks.",
@@ -44,18 +67,18 @@ export const projectsData: Project[] = [
     featured: false,
   },
   {
-    id: 5,
+    id: 7,
     title: "Forecasting Crime Categories",
     description:
     "CrimeCast: Forecasting Crime Categories is a data-driven machine learning project that predicts crime categories using historical crime data. ",
     image: "/19114091_6081586.svg?height=600&width=800",
     tags: ["Machine Learning", "Data Analysis", "Pandas", "Scikit Learn", "Matplotlib", "Gradient Boosting", "Seaborn", "Feature Engineering"],
     github: "https://www.kaggle.com/code/devratdave/21f1006042-notebook-t22024",
-    demo: "https://www.kaggle.com/code/devratdave/21f1006042-notebook-t22024",
+    live: "https://www.kaggle.com/code/devratdave/21f1006042-notebook-t22024",
     featured: false,
   },
   {
-    id: 6,
+    id: 8,
     title: "Influencer Sponsor Coordination Application",
     description:
     "This web application is designed to streamline and enhance the way influencers and sponsors connect and collaborate.",
@@ -65,7 +88,7 @@ export const projectsData: Project[] = [
     featured: false,
   },
   {
-    id: 7,
+    id: 9,
     title: "Grocery Store Application",
     description:
     "A mobile-responsive fitness tracking application that allows users to log workouts, track progress, and set goals. Includes data visualization and social sharing features.",
@@ -75,14 +98,14 @@ export const projectsData: Project[] = [
     featured: false,
   },
   {
-    id: 8,
+    id: 10,
     title: "Medium-like Application",
     description:
       "A web application deployed for posting blogs.",
     image: "/23902634_6881935.svg?height=600&width=800",
     tags: ["React.js", "TypeScript", "Cloudflare", "PostgreSQL", "Tailwind CSS", "Prisma ORM"],
     github: "https://github.com/devratdave/medium_project",
-    demo: "https://medium-project-zeta.vercel.app/",
+    live: "https://medium-project-zeta.vercel.app/",
     featured: false,
   },
 ]
@@ -92,9 +115,11 @@ export const experienceData: Experience[] = [
     title: "Software Engineering Intern",
     company: "National Informatics Centre (NIC))",
     period: "April 2025 - Present",
-    description:
-      "Built and optimized data pipelines processing 40–50 GB/day using NiFi, Spark, Hudi, and Hadoop; scaled for up to 4 TB/day.",
+    // description:
+      // "Built and optimized data pipelines processing 40–50 GB/day using NiFi, Spark, Hudi, and Hadoop; scaled for up to 4 TB/day.",
     achievements: [
+      "Built and optimized data pipelines processing 40–50 GB/day using NiFi, Spark, Hudi, and Hadoop; scaled for up to 4 TB/day.",
+      "Developed an AI-powered PDF QA chatbot application using Python Flask, React.js, and the Ollama Gemma 2B model. Implemented RAG (Retrieval-Augmented Generation) to extract context from uploaded PDFs and provide accurate answers to user queries, reducing manual document lookup time by 50%.",
       "Contributed to building an internal intern management portal using React.js, Node.js, REST APIs, and SQL, enabling interns to log daily work updates and improving reporting efficiency by 30%.",
       "Created Bash scripts to automate cluster setup and logging, cutting manual effort by 60%.",
     ],

@@ -5,7 +5,7 @@ export interface Project {
   image: string
   tags: string[]
   github?: string
-  demo?: string
+  live?: string
   featured: boolean
 }
 
@@ -13,7 +13,7 @@ export interface Experience {
   title: string
   company: string
   period: string
-  description: string
+  description?: string
   achievements: string[]
 }
 
