@@ -7,7 +7,7 @@ interface TimelineItemProps {
   title: string
   subtitle: string
   period: string
-  description: string
+  description?: string
   items: string[]
   itemsLabel?: string
 }

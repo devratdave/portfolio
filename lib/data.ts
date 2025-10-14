@@ -118,10 +118,10 @@ export const experienceData: Experience[] = [
     // description:
       // "Built and optimized data pipelines processing 40–50 GB/day using NiFi, Spark, Hudi, and Hadoop; scaled for up to 4 TB/day.",
     achievements: [
-      "Built and optimized data pipelines processing 40–50 GB/day using NiFi, Spark, Hudi, and Hadoop; scaled for up to 4 TB/day.",
-      "Developed an AI-powered PDF QA chatbot application using Python Flask, React.js, and the Ollama Gemma 2B model. Implemented RAG (Retrieval-Augmented Generation) to extract context from uploaded PDFs and provide accurate answers to user queries, reducing manual document lookup time by 50%.",
-      "Contributed to building an internal intern management portal using React.js, Node.js, REST APIs, and SQL, enabling interns to log daily work updates and improving reporting efficiency by 30%.",
-      "Created Bash scripts to automate cluster setup and logging, cutting manual effort by 60%.",
+      "Developed scalable web applications using React.js, Node.js, and Express, improving internal data access and collaboration efficiency by 35%.",
+      "Created a conversational database assistant inspired by DB-GPT, allowing users to query and visualize data from PostgreSQL/MySQL via natural language. Utilized React.js, Tailwind CSS, Node.js, Prisma, FastAPI, and Hugging Face models, reaching 85% query accuracy.",
+      "Integrated data processing pipelines with NiFi and Spark to handle 20+ GB/day, ensuring efficient backend data availability for frontend analytics dashboards.",
+      "Automated setup workflows using Bash scripts, cutting environment setup time by 45%.",
     ],
   }
 ]
